@@ -37,4 +37,14 @@
     </dependency>
   </dependencies>
 
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>com.google.protobuf</groupId>
+        <artifactId>protobuf-gradle-plugin</artifactId>
+        <version>0.8.12</version>
+      </plugin>
+    </plugins>
+  </build>
+
 </project>
